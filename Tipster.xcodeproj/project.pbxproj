@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91A29ABB26D5F0FF004E0D54 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A29ABA26D5F0FF004E0D54 /* BlurView.swift */; };
 		91CA926D26D0926800E979CD /* TipsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA926C26D0926800E979CD /* TipsterApp.swift */; };
 		91CA926F26D0926800E979CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA926E26D0926800E979CD /* ContentView.swift */; };
 		91CA927126D0926A00E979CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CA927026D0926A00E979CD /* Assets.xcassets */; };
 		91CA927426D0926A00E979CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CA927326D0926A00E979CD /* Preview Assets.xcassets */; };
+		91CA927C26D4ACE600E979CD /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA927B26D4ACE600E979CD /* CalculateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91A29ABA26D5F0FF004E0D54 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		91CA926926D0926800E979CD /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CA926C26D0926800E979CD /* TipsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterApp.swift; sourceTree = "<group>"; };
 		91CA926E26D0926800E979CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91CA927026D0926A00E979CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91CA927326D0926A00E979CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91CA927526D0926A00E979CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CA927B26D4ACE600E979CD /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				91CA926C26D0926800E979CD /* TipsterApp.swift */,
 				91CA926E26D0926800E979CD /* ContentView.swift */,
+				91CA927B26D4ACE600E979CD /* CalculateView.swift */,
+				91A29ABA26D5F0FF004E0D54 /* BlurView.swift */,
 				91CA927026D0926A00E979CD /* Assets.xcassets */,
 				91CA927526D0926A00E979CD /* Info.plist */,
 				91CA927226D0926A00E979CD /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91CA926F26D0926800E979CD /* ContentView.swift in Sources */,
+				91A29ABB26D5F0FF004E0D54 /* BlurView.swift in Sources */,
+				91CA927C26D4ACE600E979CD /* CalculateView.swift in Sources */,
 				91CA926D26D0926800E979CD /* TipsterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
